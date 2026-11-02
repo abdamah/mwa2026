@@ -1,5 +1,18 @@
-import { View } from "react-native";
-import MyButton from "./mybutton";
+import { Text, View } from "react-native";
+
+import { MyFooter } from "./header2";
+
+// boxing | packaging-> unboxing | unpackaging
+
+const user = {
+  name: "John Doe",
+  age: 30,
+  email: "john.doe@example.com",
+};
+
+const name2 = user.name;
+
+const { name } = user;
 
 export default function Index() {
   return (
@@ -10,7 +23,11 @@ export default function Index() {
         justifyContent: "center",
       }}
     >
-      <MyButton label="My Start Button" />
+      <MyFooter>
+        <Text>This is the footer content.</Text>
+      </MyFooter>
+
+      <MyFooter />
     </View>
   );
 }
