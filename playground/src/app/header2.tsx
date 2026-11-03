@@ -60,3 +60,16 @@ function Arrow() {
     </View>
   );
 }
+
+// exam
+// 5 t/f
+// 5 mcq
+// 10 desccriptive
+
+const Hellow = () => {
+  return (
+    <View>
+      <Text>Hello World</Text>
+    </View>
+  );
+};

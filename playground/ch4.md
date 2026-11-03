@@ -29,10 +29,37 @@ return <div> </div>
 
 ## props-> properties -> parameter
 
+## READONLY
+
 1.  normal props -> any data type, any variable name
-    -> <div class ="">
+    -> <View style ="">
 2.  children: data type : "ReactNode", name= children
     -> reserved keyword
     -> btn tags
     <div>. asdkfjaskdfj</div>
     <Test> iafjdkafjd </Test>
+
+## View -> contianer -> div
+
+## Text: -> render strings
+
+## Button -> click events
+
+      -> limit style
+      -> prop-> tiltle -> required
+
+##Pressable
+
+## TextInput: input -> type
+
+## ScrollView
+
+## Image-> images/picture
+
+## SafeAreaView-> safe -> bonchs
+
+## TouchableOpacity: button
+
+## Flexbox-> not component -> style/css
+
+## Flatlist->ListView
